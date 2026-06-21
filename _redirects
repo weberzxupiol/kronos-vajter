@@ -1,0 +1,20 @@
+# Video Assets — KRONOS
+
+Place your Higgsfield-generated video files here:
+
+## Required Files
+
+### `hero-quantum.mp4`
+Used in: **Hero Section background**  
+Higgsfield prompt:
+> "Cinematic, macro shot of futuristic quantum watch internal gears moving slowly. Liquid gold and neon blue energy flowing through micro-circuits. Extreme close up, shallow depth of field, 4k resolution, dark luxury atmosphere, slow motion 60fps."
+
+### `product-showcase.mp4`
+Used in: **Product Showcase section**  
+Higgsfield prompt:
+> "A sleek, matte black titanium luxury smartwatch floating in mid-air against a dark background with subtle smoke. The watch face screen lights up with a holographic quantum interface. Cinematic lighting, rotating slowly, 3D render style, 4k, ultra premium."
+
+## Notes
+- Both videos are embedded with `autoPlay loop muted playsInline` for seamless looping
+- The site gracefully falls back to CSS placeholder visuals when videos aren't loaded
+- Recommended format: H.264 MP4, max 15MB per file for fast loading

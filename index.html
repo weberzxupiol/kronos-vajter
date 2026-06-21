@@ -1,0 +1,14 @@
+import { Routes, Route } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import TechnologyPage from "./pages/TechnologyPage";
+import CollectionPage from "./pages/CollectionPage";
+
+export default function App() {
+  return (
+    <Routes>
+      <Route path="/"            element={<HomePage />} />
+      <Route path="/technology"  element={<TechnologyPage />} />
+      <Route path="/collection"  element={<CollectionPage />} />
+    </Routes>
+  );
+}
